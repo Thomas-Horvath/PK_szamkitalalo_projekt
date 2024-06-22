@@ -1,5 +1,8 @@
 # PK - Számkitaláló 
-## javascript gyakorló projekt 
+
+## Javascript gyakorló projekt 
+
+Próbáld ki a játékot => [DEMO](https://thomas-horvath.github.io/PK_szamkitalalo_projekt)
 
 
 ## Leírás
