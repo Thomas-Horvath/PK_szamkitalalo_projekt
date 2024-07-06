@@ -4,7 +4,11 @@
 
 Próbáld ki a játékot => [DEMO](https://thomas-horvath.github.io/PK_szamkitalalo_projekt)
 
-
+## Technológiák
+    - Html 
+    - Css , Bootstrap 
+    - JavaScript
+    
 ## Leírás
 
 Számítógép gondol egy egész számra 1 és 100 között. A felhasználó egy input

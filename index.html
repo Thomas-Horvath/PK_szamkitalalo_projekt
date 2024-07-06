@@ -26,17 +26,17 @@
     </header>
 
 
-    <main>
+    <main class="p-4">
         <form>
             <div class="container-fluid mt-5 mb-4">
                 <div class="row">
                     <div
                         class=" mb-3 col-12 col-md-8 offset-md-2 col-lg-6 offset-lg-3 col-xl-4  offset-xl-4 text-center">
                         <label for="numberInput" class="form-label fs-3">Tipp:</label>
-                        <input type="number" class="form-control p-3 fs-3 js-guess-field" id="numberInput" aria-describedby="emailHelp"
-                            min="1" max="100" step="1" name="guess" required>
-                            <div class="invalid-feedback">Adj meg egy helyes tippet!
-                            </div>
+                        <input type="number" class="form-control p-3 fs-3 js-guess-field" id="numberInput"
+                            aria-describedby="emailHelp" min="1" max="100" step="1" name="guess">
+                        <div class="invalid-feedback">Adj meg egy helyes tippet!
+                        </div>
                         <div id="emailHelp" class="form-text">Adj meg egy egész számot 1 és 100 között!</div>
                     </div>
 
@@ -50,30 +50,15 @@
             </div>
         </form>
         <div class="container-fluid js-guess-container">
-            <div class="row">
-                <div
-                    class="mb-3 fs-5 col-12 col-md-8 offset-md-2 col-lg-6 offset-lg-3 col-xl-4  offset-xl-4 text-center alert alert-success">
-                    44 - Gratulálok, eltaláltad!
-                </div>
-            </div>
-            <div class="row">
-                <div
-                    class="mb-3 fs-5 col-12 col-md-8 offset-md-2 col-lg-6 offset-lg-3 col-xl-4  offset-xl-4 text-center alert alert-warning ">
-                    65 - a keresett szám kisebb
-                </div>
-            </div>
-            <div class="row">
-                <div
-                    class="mb-3 fs-5 col-12 col-md-8 offset-md-2 col-lg-6 offset-lg-3 col-xl-4  offset-xl-4 text-center alert alert-primary">
-                    25 - a keresett szám nagyobb
-                </div>
-            </div>
         </div>
     </main>
 
+
+
     <footer class=" container-fluid fixed-bottom  text-center bg-dark text-light " data-bs-theme="dark">
         Számkitaláló Játék &copy;
-        2024</footer>
+        2024
+    </footer>
 
 
 
